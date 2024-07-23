@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        :root {
+        --left1: 50px;
+        --top1: 200px;
+        --top2: 300px; 
+
+
+           }
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        z {
+        width: 2000px;
+        height: 200px;
+        position: relative;
+        top: -10px;
+        left: -10px;
+        display: block;
+        text-align: center;
+        background-color: rgb(2, 7, 72);
+        }
+        @keyframes example {
+           from {
+               transform: translateY(40px);
+               opacity: 0;
+                   }
+           to {
+            transform: translateY(0px);
+            opacity:1;
+
+
+
+  }
+}
+
+        .animation-container{
+         animation-name: example;
+         animation-fill-mode: forwards;
+         opacity:0;
+
+
+
+
+  }
+       .motion{
+          animation-duration: 1s;
+       }
+
+
+        p {
+        width: 100px;
+        height: 30px;
+        border-radius: 100px 100px 100px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px; 
+        position: absolute;
+        top: 0px;
+        left: 1200px;
+        color: #ffffff;
+        background-color: rgb(83, 207, 252);
+        }
+        .Progress_bar {
+                  width: 40px;
+                  height: 20px;
+                  border-radius: 100px 100px 100px 100px;
+                  display: block;
+                  font-weight: 900;
+                  font-size: 13px; 
+                  z-index: 1;
+                  position: absolute;
+                  top: -814px;
+                  left: 1410px;
+                  color: #000000;
+                  background-color: rgb(255, 255, 255);
+                  
+         }
+
+         .Progress_Section {
+                  background-color: rgb(255, 255, 255);
+                  width: 120px;
+                  display: none;
+                  font-weight: 900;
+                  font-size: 11px; 
+                  border-radius: 10px 10px 10px 10px;
+                  position: absolute;
+                  justify-content: center;
+                  align-items: center;
+                  height: 35px;
+                  top: -780px;
+                  left: 1380px;
+         }
+         
+
+         .hoverdown:hover .Progress_Section {
+                  display: flex;
+         }
+
+         .hoverdown {
+                  position: absolute;
+                  display: block;
+         }
+
+        reg_button{
+
+        font-size: 17px;    
+        color: #ffffff;
+        position: absolute;
+        top: 25px;
+        left: 1350px;
+        }
+        .class_button{
+
+        font-size: 18px;    
+        color: #ffffff;
+        position: Absolute;
+        }
+
+        .category_button{
+           font-size: 24px;    
+           font-weight: 800;
+           color: #ffffff;
+           position: Absolute;
+
+           transform: translateY(-65px);
+          }
+          
+        
+        .features {
+                top: 100px;
+                left: 880px;
+        }
+        
+
+        .partners {
+                top: 100px;
+                left: 980px;
+        }
+
+        .pricing {
+                top: 100px;
+                left: 1080px;
+        }
+
+        .docs {
+                top: 100px;
+                left: 1160px;
+        }
+        .features2 {
+                    top: 3400px;
+                    left: 450px;
+          }
+
+          .docs2 {
+                    top: 3400px;
+                    left: 650px;
+          }
+
+          .reddit2 {
+                    top: 3400px;
+                    left: 1050px;
+          }
+
+          .twitter2 {
+                    top: 3450px;
+                    left: 1050px;
+          }
+
+          .instagram2 {
+                    top: 3500px;
+                    left: 1050px;
+          }
+
+          .team2 {
+                    top: 3400px;
+                    left: 850px;
+          }
+
+          .meetups2 {
+                    top: 3450px;
+                    left: 850px;
+          }
+
+          .github2 {
+                    top: 3450px;
+                    left: 650px;
+          }
+
+
+        
+
+
+
+
+
+
+
+        Inline{
+            font-size: 40px;
+            left: 100px;
+            color: #08005172;
+            font-family: 'verdana';
+            position: absolute;
+            top: 270px;            
+            left: 60px; 
+
+
+        }
+
+
+
+        Outline1{
+            font-size: 15px;
+            font-weight: 0;
+            color: rgb(29, 12, 0);
+            font-family: 'verdana';
+            position: Absolute; 
+            top: 350px;
+            left: 60px;
+            display: block;
+
+        }
+
+        Line1 {
+        width:140px;
+        height: 2px;
+        position: relative;
+        top: -500px;
+        left: 65px;
+        display: block;
+        text-align: center;
+        background-color: rgb(82, 223, 255);
+        }
+        Line2 {
+        width:160px;
+        height: 2px;
+        position: absolute;
+        top: 3380px;
+        display: block;
+        text-align: center;
+        background-color: rgb(82, 223, 255);
+        }
+        .one{
+              left:430px;
+        }
+        .two{
+            left:630px;
+
+        }
+        .three{
+            left:830px;
+        }
+        .four{
+            left:1030px;
+         }
+
+        
+        
+        Outline{
+            font-size: 18px;
+            color: rgb(5, 0, 29);
+            font-family: 'verdana';
+            position: absolute;
+            white-space: nowrap;
+
+        }
+        kaan{
+            font-size: 24px;
+            font-weight: 00;
+            color: rgb(5, 0, 29);
+            position: absolute;
+            white-space: nowrap;
+            top: 1500px; 
+            left: 300px;
+
+        }
+        .relative-object {
+            position: relative;
+            left: 0px;
+            top:    1200px;  
+        }
+        kaan2{
+            font-size: 18px;
+            font-weight: 00;
+            color: rgb(5, 0, 29);
+            position: absolute;
+            white-space: nowrap;
+            top: 1600px; 
+            left: 300px;
+
+        }
+        .pos01{
+            top: 600px; 
+            left: 80px;
+        }
+        .pos02{
+            top: 900px; 
+            left: 80px;
+
+        }
+        .pos03{
+            top: 1200px; 
+            left: 80px;
+
+        }
+        .pos04{
+            top: 600px; 
+            left: 880px;
+        }
+        .pos05{
+            top: 900px; 
+            left: 880px;
+
+        }
+        .pos06{
+            top: 1200px; 
+            left: 880px;
+
+        }
+        .pos07 {
+                  top: 2150px; /* 2400 - 250 + 30 */
+                  left: 140px;
+                  animation-delay: 1s;
+         }
+
+         .pos08 {
+                  top: 2280px; /* 2500 - 250 */
+                  left: 140px;
+                  animation-delay: 3s;
+         }
+
+         .pos09 {
+                  top: 2410px; /* 2600 - 250 + 60 */
+                  left: 140px;
+                  animation-delay: 5s;
+         }
+
+         .pos10 {
+                  top: 2540px; /* 2700 - 250 + 90 */
+                  left: 140px;
+                  animation-delay: 7s;
+         }
+
+         .pos11 {
+                  top: 2150px; /* Adjust as needed */
+                  left: 940px; /* 140 + 900 */
+                  animation-delay: 2s;
+         }
+
+         .pos12 {
+                  top: 2280px; /* Adjust as needed */
+                  left: 940px; /* 140 + 900 */
+                  animation-delay: 4s;
+         }
+
+         .pos13 {
+                  top: 2410px; /* Adjust as needed */
+                  left: 940px; /* 140 + 900 */
+                  animation-delay: 6s;
+         }
+
+        
+        .icon_pos{
+            margin-left: -30px;
+
+        }
+        .icon,
+        .text {
+            vertical-align: middle;
+            display: inline-block;
+            font-weight: 700;
+            font-size: 24px;
+            height: 50px;
+            width: 25px;
+            margin-top:-50px;
+            white-space: nowrap;
+            position: absolute;
+            
+            
+            
+           }
+        .dropbtn {
+                background-color: #0c0056;
+                color: white;
+                font-size: 17px;
+                width: 120px;
+                border: none;
+                cursor: pointer;
+                position:absolute;
+                top:-828px;
+                white-space: nowrap;
+                left: 1210px;
+
+                
+  
+
+
+
+        }
+
+        .triangle-down {
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right:5px solid transparent;
+            border-top: 8px solid rgb(255, 255, 255);
+            position: absolute ;
+            top:108px;
+            z-index:2;
+            left: 1325px;
+
+            
+
+    }
+
+        .dropdown {
+                position: relative;
+                display: inline-block;
+        }
+        
+
+
+        .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                overflow: auto;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                position:absolute;
+                border-radius: 10px 10px 10px 10px;
+                height:150px;
+                top:-798px;
+                left: 1200px;
+
+        }
+        .Marg{
+            margin-top: 10px;
+        }
+
+        .dropdown-content a {
+                color: rgb(0, 0, 0);
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+        }
+
+        .dropdown a:hover {
+                background-color: #c9c7c7;
+        }
+
+        .show {
+                display: block;
+        }
+
+        
+
+
+
+
+
+        </style>
+        
+<script>
+    
+    function Dropfunc() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+          
+
+        }
+      }
+
+    }
+    
+
+    document.addEventListener("DOMContentLoaded", () => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animation-container');
+          
+                return;
+        }
+      });
+    });
+    
+
+    const allAnimatedElements = document.querySelectorAll('.motion');
+
+
+    allAnimatedElements.forEach((element) => observer.observe(element));
+
+    }); 
+    </script>
+</head>
+<body>
+ 
+
+
+    <object data="download.svg" width="100%" height="900" class="relative-object"> </object>
+    <p class="motion">login</p>
+    <reg_button>Register</reg_button>
+    <img src="logo.svg" width="300" height="100" style="position: absolute; left: 30px; top: 50px; animation: smooth-appear 1s ease forwards;">
+    <Inline>Features</Inline>
+    <span class="icon pos01 icon_pos">
+        <object data="download2.svg"> </object>
+     </span>
+     <span class="text pos01 text_pos">Bucket Module</span>
+     <Outline class="pos01">The module that you can define your data structure. This will give you the flexibility <br> that you need.<br></Outline>
+     
+     <span class="icon pos02 icon_pos">
+        <object data="download2.svg"> </object>
+     </span>
+     <span class="text pos02 text_pos">Template Data Models</span>
+     <Outline class="pos02">To make a fast start, we set some bucket structure templates. You can <br> choose a template and update it as your wishes.<br></Outline>
+     
+     <span class="icon pos03 icon_pos">
+        <object data="download2.svg"> </object>
+     </span>
+     <span class="text pos03 text_pos">Restful API & Realtime Data Transfer</span>
+     <Outline class="pos03">Access all your bucket data in a few milliseconds. Spica allows you to reach <br> your data realtime as well.<br></Outline>
+     
+     <span class="icon pos04 icon_pos">
+        <object data="download2.svg"> </object>
+     </span>
+     <span class="text pos04 text_pos">File Management</span>
+     <Outline class="pos04">Store your videos, images, sounds or any kind of videos.<br></Outline>
+     
+     <span class="icon pos05 icon_pos">
+        <object data="download2.svg"> </object>
+     </span>
+     <span class="text pos05 text_pos">Multilingual Content Management</span>
+     <Outline class="pos05">To support as many as language, you don’t need to write any code. Also you <br> can define which contents are translatable.<br></Outline>
+     
+     <span class="icon pos06 icon_pos">
+        <object data="download2.svg"> </object>
+     </span>
+     <span class="text pos06 text_pos">Frontend Composer</span>
+     <Outline class="pos06">The huge module that gives you to compose your user interface without <br> writing code unless you use custom components. If you decide to develop <br> unique UI, just push your components to NPM and import into Frontend <br> Composer.<br></Outline>
+     <span class="icon pos07 icon_pos motion">
+        <object data="download2.svg"> </object>
+    </span>
+    <span class="text pos07 text_pos motion">Custom Functions</span>
+    <Outline class="pos07 motion">The module which gives you to writing your own logic easily. Also you can <br> set subscribers and webhooks in harmony with Bucket Module.<br></Outline>
+    
+    <span class="icon pos08 icon_pos motion">
+        <object data="download2.svg"> </object>
+    </span>
+    <span class="text pos08 text_pos motion">Building Module</span>
+    <Outline class="pos08 motion">You can take composer builds as mobile application or web application. <br> Web applications will be PWA supported built-in.<br></Outline>
+    
+    <span class="icon pos09 icon_pos motion">
+        <object data="download2.svg"> </object>
+    </span>
+    <span class="text pos09 text_pos motion">Auto-Publishing</span>
+    <Outline class="pos09 motion">Schedule your posts and let them become visible in the future. <br> You don't need to be on your computer.<br></Outline>
+    
+    <span class="icon pos10 icon_pos motion">
+        <object data="download2.svg"> </object>
+    </span>
+    <span class="text pos10 text_pos motion">Policy Management</span>
+    <Outline class="pos10 motion">The IAM system which gives you full control on your instance. You can set <br> policies, identities, and roles that you need.<br></Outline>
+    
+    <span class="icon pos11 icon_pos motion">
+        <object data="download2.svg"> </object>
+    </span>
+    <span class="text pos11 text_pos motion">History</span>
+    <Outline class="pos11 motion">You can see all changes related to a specific entry so you can revert your entry <br> or track changes easily.<br></Outline>
+    
+    <span class="icon pos12 icon_pos motion">
+        <object data="download2.svg"> </object>
+    </span>
+    <span class="text pos12 text_pos motion">Assetstore</span>
+    <Outline class="pos12 motion">You can find ready-to-use functions or components on Assetstore.<br></Outline>
+    
+    <span class="icon pos13 icon_pos motion">
+        <object data="download2.svg"> </object>
+    </span>
+    <span class="text pos13 text_pos motion">Single Sign-On</span>
+    <Outline class="pos13 motion">Single Sign-On based on SAML 2.0 will give you to manage your users easily.<br></Outline> 
+    
+    <img src="life-preserver.svg" width="600" height="600" style="position: absolute; left: 1000px; top: 1450px;">
+    
+    <line1></line1>
+    <line2 class="one"></line2>
+    <line2 class="two"></line2>
+    <line2 class="three"></line2>
+    <line2 class="four"></line2>
+    <kaan>Extraordinary <br>
+        Support Experience</kaan>
+    <kaan2>We believe, we will create something unique together. Feel the power you have and start <br>
+         to changing game. We provide solution focused support 365 days.</kaan2>
+    
+
+
+    <div class="class_button features2">features</div>
+    <div class="class_button docs2">docs</div>
+    <div class="class_button github2">github</div>
+    <div class="class_button team2">team</div>
+    <div class="class_button meetups2">meetups</div>
+    <div class="class_button reddit2">reddit</div>
+    <div class="class_button twitter2">twitter</div>
+    <div class="class_button instagram2">instagram</div>
+    <div class="category_button features2">features</div>
+    <div class="category_button docs2">docs</div>
+    <div class="category_button team2">team</div>
+    <div class="category_button reddit2">reddit</div>
+
+
+
+
+    <img class="motion" src="github-mark-white.svg" width="25" height="25" style="position: absolute; left: 1380px; top: 100px;">
+    <div class="class_button features">Features</div>
+    <div class="class_button partners">Partners</div>
+    <div class="class_button pricing">Pricing</div>
+    <div class="class_button docs">Docs</div>
+    <img src="background.ecdc9032dd9fdf084254.svg" style="position: absolute; left: 00px; top: 0px;   clip: rect(0, 2000px, 200px, 0); z-index: -1;"> 
+    <img src="footer.0f7c7b7671d6c37b3fb0.svg" style="position: absolute; left: 00px; top: 3000px;   clip: rect(0, 2000px, 700px, 0); z-index: -1;"> 
+    <img src="logo-2.svg" style="position: absolute; left: 140px; top: 3230px;"width=200 height=200>         
+    <div class="hoverdown">
+        <button class="Progress_bar">o</button>
+        <div class="Progress_Section">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you like spica&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;support us with a star </div>
+    </div>
+    
+    <div class="dropdown">
+        <button onclick="Dropfunc()" class="dropbtn">Get in touch</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#" class="Marg">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+    <div class="triangle-down"></div>
+    
+    <Outline1>Let’s see the undiscovered realms of your imagination and make it real<br>together with game changer features.</Outline1>
+    
+    
+
+
+</body>
+</html>
