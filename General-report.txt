@@ -1,0 +1,9 @@
+--Under development
+ -Docs page
+ -pricing page
+
+--Main problem
+ -Page size cant set because of already positioned elements
+
+--Last update
+  -Css codes are now in a separate CSS file.
